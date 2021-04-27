@@ -64,12 +64,13 @@ img{
   border: 5px solid rebeccapurple;
   background-color: lightgray;
   border-style: double;
-  padding: 40px;
+  padding: 20px;
   margin: 40px;
   width: 720px;
-  height: 480px;
+  height: 440px;
+  font-size: 20px;
 }
-.contact_header{
+.title_header{
     background-color:crimson;
     padding: .5em;
     color:#2aa59f;
@@ -78,18 +79,6 @@ img{
     text-align: center;
   }
   
-  .jumbotron{
-    background-color: black;
-    color: white;
-  }
-  .gallery_header{
-    background-color: grey;
-    padding: .5em;
-    color:brown;
-    font-size: 5em;
-    font-family: serif;
-    text-align: center;
-  }
   
   .gallery{
     max-width: 25em;
@@ -110,3 +99,6 @@ img{
     background-repeat: no-repeat; 
   }
   
+  span{
+    text-transform: uppercase; 
+  }
